@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -159,7 +159,7 @@
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="about-card animate__animated animate__fadeInUp">
-                        <img src="/images/img1.jpg" alt="Deaf Community" class="about-img">
+                        <img src="{{ url_for('static', filename='images/img1.jpg') }}" alt="Deaf Community" class="about-img">
                         <div class="about-content">
                             <h3 class="about-title">Understanding the Deaf Community</h3>
                             <p>The deaf community has a rich culture and language of its own. Sign languages are complete natural languages with their own grammar and lexicon.</p>
@@ -168,7 +168,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="about-card animate__animated animate__fadeInUp animate__delay-1s">
-                        <img src="/images/img2.jpg" alt="Communication Barriers" class="about-img">
+                        <img src="{{ url_for('static', filename='images/img2.jpg') }}" alt="Communication Barriers" class="about-img">
                         <div class="about-content">
                             <h3 class="about-title">Breaking Barriers</h3>
                             <p>Only about 30% of spoken English can be understood through lip reading. Sign language provides complete access to communication for deaf individuals.</p>
@@ -177,7 +177,7 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="about-card animate__animated animate__fadeInUp animate__delay-2s">
-                        <img src="/images/img3.jpg" alt="Technology" class="about-img">
+                        <img src="{{ url_for('static', filename='images/img3.jpg') }}" alt="Technology" class="about-img">
                         <div class="about-content">
                             <h3 class="about-title">Technology for Inclusion</h3>
                             <p>Modern technology can help bridge the communication gap between deaf and hearing communities through innovative solutions like SignSync.</p>
